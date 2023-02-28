@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Estos son metdatos que nunca se muestran en pantalla.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Web</title>
+</head>
+<style>
+table th {
+  color: gold;
+  background-color: black;
+  font-size: 45px;
+  font-family:'Times New Roman', Times, serif;
+}
+table td {
+  color: black;
+  background-color: goldenrod;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del elemento</th>
+                <th>Descripcion</th>
+                <th>Uso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>html</strong></td>
+                <td>El elemento HTML [html] representa la raíz (elemento de nivel superior) de un documento HTML, por lo que también se denomina elemento raíz . Todos los demás elementos deben ser descendientes de este elemento.</td>
+                <td>Define la raíz del documento.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>div</strong></td>
+                <td>El elemento HTML [div] es el contenedor genérico para el contenido de flujo. No tiene ningún efecto sobre el contenido o el diseño hasta que se le aplica estilo de alguna manera usando CSS (por ejemplo, se le aplica estilo directamente, o se aplica algún tipo de modelo de diseño como Flexbox a su elemento principal).</td>
+                <td>El div elemento debe usarse solo cuando ningún otro elemento semántico (como article o nav) sea apropiado.</td>
+                <tr></tr>
+            </tr>
+            
+            <tr>
+                <td><strong>a</strong></td>
+                <td><div>El elemento HTML [a] (o elemento ancla ), con su atributo , crea un hipervínculo a páginas web, archivos, direcciones de correo electrónico, ubicaciones en la misma página o cualquier otra cosa que una URL pueda abordar.</div></td>
+                <td>Define un hipervínculo.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>head</strong></td>
+                <td><div>El elemento HTML [head] contiene información legible por máquina ( metadatos ) sobre el documento, como su título , guiones y hojas de estilo .</div></td>
+                <td>Define información hacerca del documento, principalmente contiene información para el procesamiento de máquinas, no para la legibilidad humana. Para obtener información visible para humanos, como encabezados de nivel superior y autores enumerados</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>body</strong></td>
+                <td><div>El elemento HTML [body] representa el contenido de un documento HTML. Solo puede haber un elemento en un documento.</div></td>
+                <td>Define el cuerpo del documento, La etiqueta de inicio puede omitirse si lo primero que contiene no es un carácter de espacio, un comentario, un script elemento o style un elemento. La etiqueta final se puede omitir si el body elemento tiene contenido o tiene una etiqueta inicial y no va seguido inmediatamente de un comentario.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>strong</strong></td>
+                <td><div>El elemento HTML [strong] indica que sus contenidos tienen una gran importancia, seriedad o urgencia. Los navegadores normalmente muestran el contenido en negrita.</div></td>
+                <td>El elemento strong es para contenido que es de "gran importancia", incluidas cosas de gran seriedad o urgencia (como advertencias). Esta podría ser una oración que sea de gran importancia para toda la página, o simplemente podría tratar de señalar que algunas palabras son de mayor importancia en comparación con el contenido cercano. Normalmente, este elemento se representa de forma predeterminada con un peso de fuente en negrita. Sin embargo, no debe usarse para aplicar un estilo audaz; use la propiedad CSS font-weightpara ese propósito. Utilice el b elemento para llamar la atención sobre un texto determinado sin indicar un mayor nivel de importancia. Use el em elemento para marcar texto que tenga énfasis. Otro uso aceptado para strong es denotar las etiquetas de los párrafos que representan notas o advertencias dentro del texto de una página.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>br</strong></td>
+                <td><div>El elemento HTML [br] produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o un discurso, donde la división de líneas es significativa.</div></td>
+                <td>El elemento br tiene un propósito único y bien definido: crear un salto de línea en un bloque de texto. Como tal, no tiene dimensiones ni resultados visuales propios, y es muy poco lo que puede hacer para diseñarlo.Puede configurar marginelementos br en sí mismos para aumentar el espacio entre las líneas de texto en el bloque, pero esta es una mala práctica: debe usar la line-heightpropiedad que fue diseñada para ese propósito.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>p</strong></td>
+                <td><div>El elemento HTML [p] representa un párrafo. Los párrafos generalmente se representan en los medios visuales como bloques de texto separados de los bloques adyacentes por líneas en blanco y/o sangría en la primera línea, pero los párrafos HTML pueden ser cualquier agrupación estructural de contenido relacionado, como imágenes o campos de formulario. Los párrafos son elementos a nivel de bloque y, en particular, se cerrarán automáticamente si se analiza otro elemento a nivel de bloque antes de la petiqueta de cierre. Consulte "Omisión de etiquetas" a continuación.</div></td>
+                <td>Define un párrafo, Dividir el contenido en párrafos ayuda a que una página sea más accesible. Los lectores de pantalla y otras tecnologías de asistencia brindan accesos directos para que sus usuarios salten al párrafo anterior o siguiente, lo que les permite ojear el contenido, como el espacio en blanco que permite a los usuarios visuales saltar.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>h1 a h6</strong></td>
+                <td><div>Los elementos HTML [h1] a [h6] representan seis niveles de encabezados de sección. es el nivel de sección más alto y es el más bajo.
+                <td>Las aplicaciones de usuario pueden utilizar la información de encabezado para construir automáticamente una tabla de contenido para un documento.
+                    No utilice elementos de encabezado para cambiar el tamaño del texto. En su lugar, utilice la propiedad CSS font-size .
+                    No se salte los niveles de encabezado: comience siempre por h1, seguido de h2 y así sucesivamente.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>img</strong></td>
+                <td><div>El elemento HTML [img] incrusta una imagen en el documento.</div></td>
+                <td>Define una imagen, El srcatributo es obligatorio y contiene la ruta a la imagen que desea incrustar. El altatributo contiene una descripción de texto de la imagen, que no es obligatoria pero es increíblemente útil para la accesibilidad: los lectores de pantalla leen esta descripción a sus usuarios para que sepan lo que significa la imagen. El texto alternativo también se muestra en la página si la imagen no se puede cargar por algún motivo: por ejemplo, errores de red, bloqueo de contenido o linkrot.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>article</strong></td>
+                <td><div>El elemento HTML [article] representa una composición independiente en un documento, página, aplicación o sitio, que está destinado a ser distribuible o reutilizable de forma independiente (por ejemplo, en sindicación). Los ejemplos incluyen: una publicación en un foro, un artículo de revista o periódico, o una entrada de blog, una tarjeta de producto, un comentario enviado por un usuario, un widget o dispositivo interactivo, o cualquier otro elemento de contenido independiente.
+                <td>Cada uno article debe identificarse, normalmente mediante la inclusión de un encabezado ( h1-elemento h6 ) como elemento secundario del article elemento.
+                    Cuando un article elemento está anidado, el elemento interior representa un artículo relacionado con el elemento exterior. Por ejemplo, los comentarios de una publicación de blog pueden ser article elementos anidados en el que article representa la publicación de blog.
+                    La información de autor de un article elemento se puede proporcionar a través del address elemento, pero no se aplica a article los elementos anidados.
+                    La fecha y la hora de publicación de un article elemento se pueden describir utilizando el datetimeatributo de un time elemento.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>title</strong></td>
+                <td><div>El elemento HTML [title] define el título del documento que se muestra en la barra de título de un navegador o en la pestaña de una página. Solo contiene texto; las etiquetas dentro del elemento se ignoran.</div></td>
+                <td>El title elemento siempre se usa dentro del head bloque de una página.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>link</strong></td>
+                <td><div>El elemento HTML [link] especifica las relaciones entre el documento actual y un recurso externo. Este elemento se usa más comúnmente para vincular hojas de estilo , pero también se usa para establecer íconos de sitios (tanto íconos de estilo "favicon" como íconos para la pantalla de inicio y aplicaciones en dispositivos móviles), entre otras cosas.</div></td>
+                <td>Define la relación entre un documento y un recurso externo (generalmente con hojas de estilo)</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>style</strong></td>
+                <td><div>El elemento HTML [style] contiene información de estilo para un documento o parte de un documento. Contiene CSS, que se aplica al contenido del documento que contiene el elemento.</div></td>
+                <td>El elemento style debe incluirse dentro del head del documento. En general, es mejor colocar sus estilos en hojas de estilo externas y aplicarlas usando link elementos. Si incluye varios elementos style y link en su documento, se aplicarán al DOM en el orden en que se incluyen en el documento; asegúrese de incluirlos en el orden correcto para evitar problemas inesperados en cascada. De la misma manera que link los elementos, style los elementos pueden incluir mediaatributos que contienen consultas de medios , lo que le permite aplicar hojas de estilo internas de forma selectiva a su documento según las características de los medios, como el ancho de la ventana gráfica.</td>
+            </tr>
+            
+            <tr>
+                <td><strong>script</strong></td>
+                <td><div>El elemento HTML [script] se utiliza para incrustar código o datos ejecutables; esto generalmente se usa para incrustar o hacer referencia al código JavaScript. El elemento también se puede usar con otros lenguajes, como el lenguaje de programación de sombreado GLSL de WebGL y JSON .</div></td>
+                <td>Define un script del lado cliente, Los scripts sin atributos o async, así como los scripts en línea sin el atributo, se recuperan y ejecutan inmediatamente, antes de que el navegador continúe analizando la página.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>input</strong></td>
+                <td><div>El elemento HTML [input] se usa para crear controles interactivos para formularios basados ??en web para aceptar datos del usuario; Hay disponible una amplia variedad de tipos de datos de entrada y widgets de control, según el dispositivo y el agente de usuario . El elemento es uno de los más potentes y complejos de todo HTML debido a la gran cantidad de combinaciones de tipos de entrada y atributos.</div></td>
+                <td>La forma en que input funciona varía considerablemente según el valor de su typeatributo, por lo tanto, los diferentes tipos se tratan en sus propias páginas de referencia separadas. Si no se especifica este atributo, el tipo predeterminado adoptado es text.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>ul</strong></td>
+                <td><div>El elemento HTML [ul] representa una lista desordenada de elementos, normalmente representada como una lista con viñetas.</div></td>
+                <td>El elemento ul es para agrupar una colección de elementos que no tienen un orden numérico, y su orden en la lista no tiene sentido. Por lo general, los elementos de la lista desordenada se muestran con una viñeta, que puede tener varias formas, como un punto, un círculo o un cuadrado. El estilo de viñeta no está definido en la descripción HTML de la página, sino en su CSS asociado, utilizando la list-style-typepropiedad.
+                    Los elementos ul y ol se pueden anidar tan profundamente como se desee. Además, las listas anidadas pueden alternar entre ol y ul sin restricción.
+                    Los elementos ol y ul representan una lista de elementos. Se diferencian en que, con el ol elemento, el orden es significativo. Para determinar cuál usar, intente cambiar el orden de los elementos de la lista; si se cambia el significado, ol se debe usar el elemento; de lo contrario, puede usar.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>nav</strong></td>
+                <td><div>El elemento HTML [nav] representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o hacia otros documentos. Ejemplos comunes de secciones de navegación son los menús, las tablas de contenido y los índices.</div></td>
+                <td>No es necesario que todos los enlaces estén contenidos en un nav elemento. [nav] está destinado únicamente a un bloque importante de enlaces de navegación; normalmente, el footer elemento suele tener una lista de enlaces que no necesitan estar en un nav elemento.
+                    Un documento puede tener varios nav elementos, por ejemplo, uno para la navegación del sitio y otro para la navegación dentro de la página. aria-labelledbyse puede utilizar en tal caso para promover la accesibilidad, ver ejemplo .
+                    Los agentes de usuario, como los lectores de pantalla dirigidos a usuarios discapacitados, pueden usar este elemento para determinar si omitir la representación inicial del contenido de solo navegación.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>label</strong></td>
+                <td><div>El elemento HTML representa un título para un elemento en una interfaz de usuario.</div></td>
+                <td>El texto de la etiqueta no solo se asocia visualmente con su entrada de texto correspondiente; también está asociado programáticamente con él. Esto significa que, por ejemplo, un lector de pantalla leerá la etiqueta cuando el usuario se centre en la entrada del formulario, lo que facilitará que un usuario de tecnología de asistencia comprenda qué datos se deben ingresar.
+                    Cuando un usuario hace clic o toca/toca una etiqueta, el navegador pasa el foco a su entrada asociada (el evento resultante también se genera para la entrada). Esa área de impacto aumentada para enfocar la entrada brinda una ventaja a cualquiera que intente activarla, incluidos aquellos que usan un dispositivo de pantalla táctil.</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><strong>button</strong></td>
+                <td><div>El elemento HTML [button] es un elemento interactivo activado por un usuario con un mouse, teclado, dedo, comando de voz u otra tecnología de asistencia. Una vez activado, realiza una acción, como enviar un formulario o abrir un cuadro de diálogo.</div></td>
+                <td>Define un botón clickeable, De forma predeterminada, los botones HTML se presentan en un estilo similar a la plataforma en la que se ejecuta el agente de usuario , pero puede cambiar la apariencia de los botones con CSS.</td>
+                <td></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</htlm>
